@@ -1,100 +1,165 @@
 [
-	{
-		"id": "ord-001",
-		"orderId": "PRT-2852",
-		"userId": "u-001",
-		"vendorId": "v-001",
-		"vendorName": "Farsi Print House",
-		"status": "confirmed",
-		"statusLabel": "Confirmed",
-		"date": "2025-01-06",
-		"total": 43.15,
-		"currency": "KWD",
-		"paymentMethod": "KNET",
-		"deliveryMethod": "Standard",
-		"items": [
-			{ "productId": "prod-001", "name": "Premium Business Cards — Matte", "quantity": 1, "price": 8.5, "options": "350 gsm · 100 pcs · Matte" },
-			{ "productId": "prod-002", "name": "Roll-Up Banner 85×200cm", "quantity": 2, "price": 44.0, "options": "Standard · Matte Finish" }
-		],
-		"address": "Villa 42, Block 7, Faiha District, ",
-		"pointsEarned": 43
-	},
-	{
-		"id": "ord-002",
-		"orderId": "PRT-2847",
-		"userId": "u-001",
-		"vendorId": "v-001",
-		"vendorName": "Farsi Print House",
-		"status": "printing",
-		"statusLabel": "In Printing",
-		"date": "2025-01-05",
-		"total": 8.5,
-		"currency": "KWD",
-		"paymentMethod": "KNET",
-		"deliveryMethod": "Standard",
-		"items": [
-			{ "productId": "prod-001", "name": "Premium Business Cards — 100 pcs", "quantity": 1, "price": 8.5, "options": "350 gsm · Matte Lamination" }
-		],
-		"address": "Villa 42, Block 7, Faiha District, ",
-		"pointsEarned": 8,
-		"tracking": [
-			{ "step": "Order Placed", "status": "done", "detail": "Payment confirmed via KNET", "time": "Jan 5 · 10:22 AM" },
-			{ "step": "Design Approved", "status": "done", "detail": "Print file validated — 300 DPI, bleed OK", "time": "Jan 5 · 11:45 AM" },
-			{ "step": "Pre-Press Complete", "status": "done", "detail": "Color profiles set · Plates ready", "time": "Jan 5 · 2:30 PM" },
-			{ "step": "In Printing", "status": "active", "detail": "Farsi Print House — Shuwaikh", "time": "Jan 6 · 9:00 AM — In progress" },
-			{ "step": "Quality Check", "status": "pending", "detail": "Final inspection before packing", "time": null },
-			{ "step": "Out for Delivery", "status": "pending", "detail": "Estimated Jan 8", "time": null },
-			{ "step": "Delivered", "status": "pending", "detail": "To your address in Faiha", "time": null }
-		]
-	},
-	{
-		"id": "ord-003",
-		"orderId": "PRT-2831",
-		"userId": "u-001",
-		"vendorId": "v-002",
-		"vendorName": "Gulf Banner Co.",
-		"status": "delivered",
-		"statusLabel": "Delivered",
-		"date": "2024-12-28",
-		"total": 44.0,
-		"currency": "KWD",
-		"paymentMethod": "Visa",
-		"deliveryMethod": "Express",
-		"items": [
-			{ "productId": "prod-002", "name": "Roll-Up Banner 85×200cm", "quantity": 2, "price": 44.0, "options": "Standard Retractable" }
-		],
-		"address": "Floor 4, Burj Hamad Tower, Sharq, ",
-		"pointsEarned": 44
-	},
-	{
-		"id": "ord-004",
-		"orderId": "PRT-2799",
-		"userId": "u-002",
-		"vendorId": "v-003",
-		"vendorName": "BoxCraft",
-		"status": "delivered",
-		"statusLabel": "Delivered",
-		"date": "2024-12-15",
-		"total": 28.5,
-		"currency": "KWD",
-		"paymentMethod": "KNET",
-		"deliveryMethod": "Standard",
-		"items": [
-			{ "productId": "prod-003", "name": "Custom Branded Boxes — Medium", "quantity": 1, "price": 15.0, "options": "White Card · Gloss" },
-			{ "productId": "prod-004", "name": "Catalogue A4 — Saddle Stitch", "quantity": 1, "price": 13.5, "options": "24 pages" }
-		],
-		"address": "Block 3, Street 15, Hawalli, ",
-		"pointsEarned": 28
-	},
-	{
-		"id": "ord-005",
-		"orderId": "PRT-2780",
-		"userId": "u-003",
-		"vendorId": "v-004",
-		"vendorName": "City Press",
-		"status": "delivered",
-		"statusLabel": "Delivered",
-		"date": "2024-12-10",
-		"total": 85.0,
-		"currency": "KWD",
-		"paymentMethod": "Visa",
+  {
+    "id": "ord-001",
+    "orderId": "PRT-2852",
+    "userId": "u-001",
+    "vendorId": "v-001",
+    "vendorName": "Farsi Print House",
+    "status": "confirmed",
+    "statusLabel": "Confirmed",
+    "date": "2025-01-06",
+    "total": 43.15,
+    "currency": "KWD",
+    "paymentMethod": "KNET",
+    "deliveryMethod": "Standard",
+    "items": [
+      { "productId": "prod-001", "name": "Premium Business Cards — Matte", "quantity": 1, "price": 8.5, "options": "350 gsm · 100 pcs · Matte" },
+      { "productId": "prod-002", "name": "Roll-Up Banner 85×200cm", "quantity": 2, "price": 44.0, "options": "Standard · Matte Finish" }
+    ],
+    "address": "Villa 42, Block 7, Faiha District, ",
+    "pointsEarned": 43
+  },
+  {
+    "id": "ord-002",
+    "orderId": "PRT-2847",
+    "userId": "u-001",
+    "vendorId": "v-001",
+    "vendorName": "Farsi Print House",
+    "status": "printing",
+    "statusLabel": "In Printing",
+    "date": "2025-01-05",
+    "total": 8.5,
+    "currency": "KWD",
+    "paymentMethod": "KNET",
+    "deliveryMethod": "Standard",
+    "items": [
+      { "productId": "prod-001", "name": "Premium Business Cards — 100 pcs", "quantity": 1, "price": 8.5, "options": "350 gsm · Matte Lamination" }
+    ],
+    "address": "Villa 42, Block 7, Faiha District, ",
+    "pointsEarned": 8,
+    "tracking": [
+      { "step": "Order Placed", "status": "done", "detail": "Payment confirmed via KNET", "time": "Jan 5 · 10:22 AM" },
+      { "step": "Design Approved", "status": "done", "detail": "Print file validated — 300 DPI, bleed OK", "time": "Jan 5 · 11:45 AM" },
+      { "step": "Pre-Press Complete", "status": "done", "detail": "Color profiles set · Plates ready", "time": "Jan 5 · 2:30 PM" },
+      { "step": "In Printing", "status": "active", "detail": "Farsi Print House — Shuwaikh", "time": "Jan 6 · 9:00 AM — In progress" },
+      { "step": "Quality Check", "status": "pending", "detail": "Final inspection before packing", "time": null },
+      { "step": "Out for Delivery", "status": "pending", "detail": "Estimated Jan 8", "time": null },
+      { "step": "Delivered", "status": "pending", "detail": "To your address in Faiha", "time": null }
+    ]
+  },
+  {
+    "id": "ord-003",
+    "orderId": "PRT-2831",
+    "userId": "u-001",
+    "vendorId": "v-002",
+    "vendorName": "Gulf Banner Co.",
+    "status": "delivered",
+    "statusLabel": "Delivered",
+    "date": "2024-12-28",
+    "total": 44.0,
+    "currency": "KWD",
+    "paymentMethod": "Visa",
+    "deliveryMethod": "Express",
+    "items": [
+      { "productId": "prod-002", "name": "Roll-Up Banner 85×200cm", "quantity": 2, "price": 44.0, "options": "Standard Retractable" }
+    ],
+    "address": "Floor 4, Burj Hamad Tower, Sharq, ",
+    "pointsEarned": 44
+  },
+  {
+    "id": "ord-004",
+    "orderId": "PRT-2799",
+    "userId": "u-002",
+    "vendorId": "v-003",
+    "vendorName": "BoxCraft",
+    "status": "delivered",
+    "statusLabel": "Delivered",
+    "date": "2024-12-15",
+    "total": 28.5,
+    "currency": "KWD",
+    "paymentMethod": "KNET",
+    "deliveryMethod": "Standard",
+    "items": [
+      { "productId": "prod-003", "name": "Custom Branded Boxes — Medium", "quantity": 1, "price": 15.0, "options": "White Card · Gloss" },
+      { "productId": "prod-004", "name": "Catalogue A4 — Saddle Stitch", "quantity": 1, "price": 13.5, "options": "24 pages" }
+    ],
+    "address": "Block 3, Street 15, Hawalli, ",
+    "pointsEarned": 28
+  },
+  {
+    "id": "ord-005",
+    "orderId": "PRT-2780",
+    "userId": "u-003",
+    "vendorId": "v-004",
+    "vendorName": "City Press",
+    "status": "delivered",
+    "statusLabel": "Delivered",
+    "date": "2024-12-10",
+    "total": 85.0,
+    "currency": "KWD",
+    "paymentMethod": "Visa",
+    "deliveryMethod": "Standard",
+    "items": [
+      { "productId": "prod-004", "name": "Corporate Brochure A4 — Perfect Bound", "quantity": 5, "price": 85.0, "options": "48 pages · 500 copies" }
+    ],
+    "address": "Block 1, Sharq, ",
+    "pointsEarned": 85
+  },
+  {
+    "id": "ord-006",
+    "orderId": "PRT-2765",
+    "userId": "u-002",
+    "vendorId": "v-006",
+    "vendorName": "KWPrint Express",
+    "status": "cancelled",
+    "statusLabel": "Cancelled",
+    "date": "2024-12-08",
+    "total": 12.0,
+    "currency": "KWD",
+    "paymentMethod": "KNET",
+    "deliveryMethod": "Express",
+    "items": [
+      { "productId": "prod-007", "name": "Custom Vinyl Stickers", "quantity": 1, "price": 12.0, "options": "Circle · 500 pcs" }
+    ],
+    "address": "Block 3, Street 15, Hawalli, ",
+    "pointsEarned": 0
+  },
+  {
+    "id": "ord-007",
+    "orderId": "PRT-2750",
+    "userId": "u-004",
+    "vendorId": "v-005",
+    "vendorName": "Desert Rose Printers",
+    "status": "processing",
+    "statusLabel": "Processing",
+    "date": "2025-01-04",
+    "total": 140.0,
+    "currency": "KWD",
+    "paymentMethod": "Apple Pay",
+    "deliveryMethod": "Standard",
+    "items": [
+      { "productId": "prod-008", "name": "Custom T-Shirts — DTG Print", "quantity": 20, "price": 140.0, "options": "White · L · Front print" }
+    ],
+    "address": "Block 5, Farwaniya, ",
+    "pointsEarned": 140
+  },
+  {
+    "id": "ord-008",
+    "orderId": "PRT-2740",
+    "userId": "u-005",
+    "vendorId": "v-001",
+    "vendorName": "Farsi Print House",
+    "status": "quality_check",
+    "statusLabel": "Quality Check",
+    "date": "2025-01-03",
+    "total": 24.0,
+    "currency": "KWD",
+    "paymentMethod": "KNET",
+    "deliveryMethod": "Standard",
+    "items": [
+      { "productId": "prod-001", "name": "Premium Business Cards — Spot UV", "quantity": 2, "price": 24.0, "options": "400 gsm · 500 pcs · Spot UV" }
+    ],
+    "address": "Block 2, Jabriya, ",
+    "pointsEarned": 24
+  }
+]

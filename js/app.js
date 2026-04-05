@@ -96,5 +96,3 @@ function statusBadge(status) {
 	return `<span class="badge ${s.cls}">${s.label}</span>`;
 }
 
-// Simple Chart Drawing
-function drawBarChart(containerId, data, maxVal) {
