@@ -1,0 +1,100 @@
+[
+	{
+		"id": "prod-001",
+		"name": "Premium Matte & Gloss Business Cards",
+		"category": "Business Cards",
+		"price": 8.5,
+		"originalPrice": 12.0,
+		"currency": "KWD",
+		"rating": 4.9,
+		"reviewCount": 847,
+		"image": "https://images.unsplash.com/photo-1572021335469-31706a17aaef?w=700&q=90",
+		"thumb": "https://images.unsplash.com/photo-1572021335469-31706a17aaef?w=200&q=80",
+		"vendorId": "v-001",
+		"vendorName": "Farsi Print House",
+		"badge": "Popular",
+		"deliveryDays": 2,
+		"inStock": true,
+		"options": {
+			"quantity": ["50 pcs", "100 pcs", "250 pcs", "500 pcs", "1000 pcs"],
+			"finish": ["Matte Lamination", "Gloss Lamination", "Soft Touch Matte", "Spot UV"],
+			"paper": ["300 gsm", "350 gsm", "400 gsm"]
+		},
+		"specs": {
+			"size": "Standard 90 × 55 mm",
+			"paperWeight": "350 gsm Art Card",
+			"printSides": "Double-sided (4/4)",
+			"minQuantity": "50 pieces",
+			"productionTime": "1–2 business days"
+		},
+		"description": "Make a lasting impression with our premium business cards. Printed on thick 350 gsm art card with a choice of matte or glossy lamination finish."
+	},
+	{
+		"id": "prod-002",
+		"name": "Roll-Up Banners & Large Format Prints",
+		"category": "Signage",
+		"price": 22.0,
+		"originalPrice": null,
+		"currency": "KWD",
+		"rating": 4.7,
+		"reviewCount": 312,
+		"image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=700&q=90",
+		"thumb": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=200&q=80",
+		"vendorId": "v-002",
+		"vendorName": "Gulf Banner Co.",
+		"badge": null,
+		"deliveryDays": 2,
+		"inStock": true,
+		"options": {
+			"size": ["85×200cm", "100×200cm", "120×200cm"],
+			"finish": ["Standard", "Premium Anti-curl"],
+			"stand": ["Standard Retractable", "Wide Base", "Double-sided"]
+		},
+		"specs": {
+			"size": "85 × 200 cm (standard)",
+			"material": "440gsm PVC Banner Film",
+			"printSides": "Single-sided",
+			"resolution": "720 DPI",
+			"productionTime": "1–2 business days"
+		},
+		"description": "Professional roll-up banners perfect for events, exhibitions, and retail displays."
+	},
+	{
+		"id": "prod-003",
+		"name": "Custom Branded Boxes & Gift Packaging",
+		"category": "Packaging",
+		"price": 15.0,
+		"originalPrice": 20.0,
+		"currency": "KWD",
+		"rating": 4.8,
+		"reviewCount": 194,
+		"image": "https://images.unsplash.com/photo-1607344645866-009c320b63e0?w=700&q=90",
+		"thumb": "https://images.unsplash.com/photo-1607344645866-009c320b63e0?w=200&q=80",
+		"vendorId": "v-003",
+		"vendorName": "BoxCraft",
+		"badge": "New",
+		"deliveryDays": 4,
+		"inStock": true,
+		"options": {
+			"size": ["Small (15×10×5cm)", "Medium (25×20×10cm)", "Large (35×25×15cm)"],
+			"material": ["Kraft Paper", "White Card", "Corrugated"],
+			"finish": ["Matte", "Gloss", "Soft Touch"]
+		},
+		"specs": {
+			"material": "350gsm Art Card / Kraft",
+			"printSides": "Full colour outside",
+			"minQuantity": "50 pieces",
+			"customDie": "Available (MOQ 200)",
+			"productionTime": "3–4 business days"
+		},
+		"description": "Custom branded packaging solutions for retail, gifts, and corporate use."
+	},
+	{
+		"id": "prod-004",
+		"name": "Books, Catalogues & Corporate Brochures",
+		"category": "Publishing",
+		"price": 12.0,
+		"originalPrice": null,
+		"currency": "KWD",
+		"rating": 4.8,
+		"reviewCount": 288,

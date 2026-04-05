@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+<title>Printly - Mobile App</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet"/>
+<script src="https://cdn.jsdelivr.net/npm/lucide@0.427.0/dist/umd/lucide.min.js"></script>
+<link rel="stylesheet" href="css/design-system.css"/>
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{
+    --p:#473BF0;--p-h:#3730d4;--p-l:#EEF0FF;
+    --ok:#10b981;--ok-bg:#ecfdf5;
+    --warn:#f59e0b;--warn-bg:#fffbeb;
+    --danger:#dc2626;--danger-bg:#fef2f2;
+    --dark:#161C2D;--body:#3D4555;--muted:#9CA3AF;--placeholder:#d1d5db;
+    --bg:#f9fafb;--bg-s:#f3f4f6;--white:#fff;
+    --border:#E5E7EB;--border-l:#F3F4F6;
+    --r6:6px;--r8:8px;--r10:10px;--r12:12px;--r16:16px;--r20:20px;--r99:999px;
+    --sh-xs:0 1px 2px rgba(0,0,0,.04);
+    --sh-s:0 2px 8px rgba(0,0,0,.06);
+    --sh-m:0 4px 16px rgba(0,0,0,.08);
+    --font:'Poppins',system-ui,-apple-system,sans-serif;
+}
+html{font-family:var(--font);font-size:14px;line-height:1.6;color:var(--body);-webkit-font-smoothing:antialiased}
+body{display:flex;flex-direction:column;align-items:center;min-height:100vh;padding:30px 20px 40px;background:linear-gradient(160deg,#e8ecf1 0%,#dde3ea 40%,#d0d8e3 100%)}
+
+/* ---- Layout ---- */
+.phones-wrapper{display:flex;gap:56px;align-items:flex-start;justify-content:center;flex-wrap:wrap}
+.phone-col{display:flex;flex-direction:column;align-items:center;gap:18px}
+.phone-badge{display:inline-flex;align-items:center;gap:8px;font-size:12px;font-weight:600;color:#64748b;background:rgba(255,255,255,.65);padding:7px 18px;border-radius:var(--r99);backdrop-filter:blur(10px);border:1px solid rgba(255,255,255,.5);box-shadow:0 1px 4px rgba(0,0,0,.06)}
+.phone-badge .badge-icon{width:16px;height:16px;display:flex;align-items:center;justify-content:center}
+.phone-badge .badge-dot{width:7px;height:7px;border-radius:50%;flex-shrink:0}
+
+/* ---- Phone shared ---- */
+.phone{width:393px;min-height:852px;max-height:852px;background:var(--white);overflow:hidden;position:relative;display:flex;flex-direction:column}
+
+/* ---- iOS - iPhone 16 Pro ---- */
+.phone.ios{border-radius:52px;box-shadow:0 0 0 1.5px #1a1a1a,0 0 0 4px #2d2d2d,0 0 0 6px rgba(120,120,130,.25),0 30px 80px rgba(0,0,0,.28)}
+.ios-top{flex-shrink:0;background:var(--white);position:relative;z-index:10}
+.ios-di-bar{display:flex;align-items:center;justify-content:space-between;padding:14px 28px 0}
+.ios-di-time{font-size:15px;font-weight:700;color:var(--dark);letter-spacing:-.01em}
+.ios-di-center{display:flex;justify-content:center;margin:-8px 0 0}
+.ios-dynamic-island{width:126px;height:36px;background:#000;border-radius:22px;position:relative;margin:0 auto}
+.ios-dynamic-island::before{content:'';width:11px;height:11px;border-radius:50%;background:radial-gradient(circle at 40% 40%,#2a2a3a,#0a0a14);position:absolute;left:26px;top:50%;transform:translateY(-50%)}
+.ios-di-icons{display:flex;gap:5px;align-items:center}
+.ios-di-icons svg{display:block}
+.ios-status-gap{height:6px}
+.ios-home-bar{flex-shrink:0;display:flex;justify-content:center;padding:6px 0 8px}
+.ios-home-bar::after{content:'';width:134px;height:5px;background:var(--dark);border-radius:3px;opacity:.18}
+
+/* ---- Android - Galaxy S25 Ultra ---- */
+.phone.android{border-radius:30px;box-shadow:0 0 0 1.5px #1a1a1a,0 0 0 3px #333,0 0 0 5px rgba(80,80,80,.2),0 30px 80px rgba(0,0,0,.28)}
+.and-top{flex-shrink:0;background:var(--white);position:relative;z-index:10;padding-top:6px}
+.and-camera{width:12px;height:12px;background:radial-gradient(circle at 40% 40%,#2a2a3a,#0a0a0a);border-radius:50%;position:absolute;top:11px;left:50%;transform:translateX(-50%);z-index:20;box-shadow:0 0 0 2px #1a1a1a}
+.and-status{display:flex;align-items:center;justify-content:space-between;padding:8px 24px 4px;font-size:12px;font-weight:500;color:var(--dark)}
+.and-status-icons{display:flex;gap:4px;align-items:center}
+.and-status-icons svg{display:block}
+.and-gesture{flex-shrink:0;display:flex;justify-content:center;padding:4px 0 8px}
+.and-gesture::after{content:'';width:134px;height:4px;background:var(--dark);border-radius:2px;opacity:.2}
+</style>
+</head>
+<body>
+<!-- ...rest of your HTML content... -->
+<script src="js/app.js"></script>
+</body>
+</html>
